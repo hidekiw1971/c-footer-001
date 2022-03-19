@@ -1,0 +1,12 @@
+@use "global" as *;
+.footer {
+  // size
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-color: #111;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

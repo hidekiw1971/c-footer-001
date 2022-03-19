@@ -1,0 +1,17 @@
+@use "global" as *;
+.footer__copyright--name {
+  // font
+  font-family: "Noto Sans JP";
+  font-size: rem(11);
+  font-weight: $normal;
+  letter-spacing: rem(0);
+  line-height: 1;
+  // decoration
+  color: #fff;
+  // expression
+  display: inline-block;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

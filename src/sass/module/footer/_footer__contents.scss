@@ -1,0 +1,9 @@
+@use "global" as *;
+.footer__contents {
+  // alignment
+  text-align: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

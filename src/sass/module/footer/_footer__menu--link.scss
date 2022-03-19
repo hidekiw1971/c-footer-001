@@ -1,0 +1,15 @@
+@use "global" as *;
+.footer__menu--link {
+  // font
+  font-family: "Noto Sans JP";
+  font-size: rem(16);
+  font-weight: $normal;
+  letter-spacing: rem(0);
+  line-height: 1;
+  // decoration
+  color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,0 +1,17 @@
+@use "global" as *;
+.footer__title {
+  // font
+  font-family: "Playlist";
+  font-size: rem(20);
+  font-weight: $normal;
+  letter-spacing: rem(0);
+  line-height: 1;
+  // decoration
+  color: #fff;
+  // expression
+  display: inline-block;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

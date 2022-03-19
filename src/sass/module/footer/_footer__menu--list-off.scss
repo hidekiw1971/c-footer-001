@@ -1,0 +1,8 @@
+@use "global" as *;
+.footer__menu--list-off {
+  @include mq(md) {
+    display: none;
+  }
+  @include mq(xl) {
+  }
+}

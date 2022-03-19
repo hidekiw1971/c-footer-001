@@ -1,0 +1,12 @@
+@use "global" as *;
+.footer__menu--wrap {
+  // seiz
+  width: 100%;
+  height: 100%;
+  // alignment
+  text-align: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

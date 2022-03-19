@@ -1,0 +1,41 @@
+@use "global" as *;
+.footer__menu--list {
+  // expression
+  display: block;
+  // position
+  position: relative;
+  // decoration
+  text-decoration: none;
+  @include mq(md) {
+    // expression
+    display: inline-block;
+  }
+  @include mq(xl) {
+  }
+}
+
+// 擬似要素
+.footer__menu--list::after {
+  @include mq(md) {
+    position: absolute;
+    bottom: rem(-4);
+    left: 0;
+    content: "";
+    width: 100%;
+    height: rem(2);
+    background-color: #ffea2e;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform 0.3s;
+  }
+  @include mq(xl) {
+  }
+}
+
+.footer__menu--list:hover::after {
+  transform: scale(1, 1);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
