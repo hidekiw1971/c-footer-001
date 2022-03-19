@@ -20,9 +20,9 @@
 
 ## 注意事項
 
-- 本当は以下のようにスマフォ時は<li></li>を<a><li></li></a>で囲んでdisplay: blolck;にしたかったが、htmlチェックでエラーとなったので断念。
-- <a class="footer__menu--link" href="#"><li class="footer__menu--list">事業内容</li></a> → htmlチェックでエラーを検知
-- <li class="footer__menu--list"><a class="footer__menu--link" href="#">事業内容</a></li> → htmlチェック問題なし
+- 本当は以下のようにスマフォ時は`<li></li>を<a><li></li></a>`で囲んで`display: blolck;`にしたかったが、htmlチェックでエラーとなったので断念。
+- `<a class="footer__menu--link" href="#"><li class="footer__menu--list">事業内容</li></a>` → htmlチェックでエラーを検知
+- `<li class="footer__menu--list"><a class="footer__menu--link" href="#">事業内容</a></li>` → htmlチェック問題なし
 
 ## 使い方
 
